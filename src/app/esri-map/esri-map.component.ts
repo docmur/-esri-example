@@ -22,7 +22,6 @@ import {
   OnDestroy
 } from "@angular/core";
 import { loadModules } from "esri-loader";
-// @ts-ignore
 import esri = __esri; // Esri TypeScript Types
 
 @Component({
