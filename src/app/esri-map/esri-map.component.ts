@@ -126,6 +126,7 @@ export class EsriMapComponent implements OnInit, OnDestroy {
     if (this._view) {
       // destroy the map view
       this._view.container = null;
+      this._view = null;
     }
   }
 }
